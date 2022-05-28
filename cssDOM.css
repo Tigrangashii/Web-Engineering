@@ -1,0 +1,43 @@
+#kontenti {
+    width: 60vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 1px solid blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    min-height: 15vh;
+    display: flex;
+    flex-direction: row;
+    background-color: cornflowerblue;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header>img {
+    width: 60px;
+    height: 60px;
+}
+
+article>h3 {
+    margin-left: 10px;
+}
+
+#syllLenda {
+    width: 30vw;
+    min-height: 40vh;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+li.listTek {
+    list-style: none;
+    border: 1px solid beige;
+}

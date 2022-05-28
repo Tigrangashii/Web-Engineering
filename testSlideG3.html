@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Krijimi i Slide show</title>
+<style type="text/css">
+#kontenti {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: 'Segoe UI light', Tahoma, Geneva, Verdana, sans-serif;
+width: 400px;
+margin: 0 auto;
+}
+
+#kontenti img {
+max-width: 400px;
+height: 220px;
+}
+
+button {
+border-radius: 100%;
+width: 40px;
+height: 40px;
+font: 10pt;
+color: blue;
+}
+</style>
+
+</head>
+
+<body>
+<div id="kontenti">
+<header>
+<h2>Slide Show: shfaqja e imazheve </h2>
+<img name="mySlide" id="slideshow" />
+</header>
+<button onclick="ndrroImg()">Next</button>
+</div>
+<script>
+    var imgArray=[
+        "imgS/foto0.png",
+        "imgS/foto1.png",
+        "imgS/foto2.png",
+        "imgS/foto3.png",
+        "imgS/foto4.png",
+    ];
+    var i=0;
+
+    function slideri(){
+        document.getElementById('slideshoq').src=imgArray[i];
+        if (i < imgArray.length){
+            i++;
+        } else {
+            i = 0;
+
+        }
+        setTimeout('ndrroImg()',2400)
+        
+
+    }
+
+</script>
+</body>
+
+</html>
+

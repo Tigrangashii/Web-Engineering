@@ -1,0 +1,20 @@
+.container{
+    height: 600px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.boc{
+    width: 250px;
+    height: 200px;
+    border: 1px solid blue;
+}
+.box1 p {
+    border: 1px solid green;
+}
+.box1 {
+    display:flex;
+    justify-content: space-between;
+}
+
